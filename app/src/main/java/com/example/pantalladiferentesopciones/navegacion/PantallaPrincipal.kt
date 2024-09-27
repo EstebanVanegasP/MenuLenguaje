@@ -40,7 +40,6 @@ fun PantallaPrincipal(navController: NavController) {
                 horizontalAlignment = Alignment.CenterHorizontally,
                 verticalArrangement = Arrangement.Top
             ) {
-                // Encabezado Estilizado
                 Text(
                     text = "Lenguajes de Programación",
                     style = MaterialTheme.typography.headlineLarge.copy(
