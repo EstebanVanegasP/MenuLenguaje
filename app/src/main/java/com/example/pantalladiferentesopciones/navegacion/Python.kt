@@ -53,10 +53,10 @@ fun Python(navController: NavController) {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Button(onClick = { navController.navigate("java") }) {
-                Text("Anterior")
+                Text("java")
             }
             Button(onClick = { navController.navigate("javascript") }) {
-                Text("Siguiente")
+                Text("javascript")
             }
         }
     }

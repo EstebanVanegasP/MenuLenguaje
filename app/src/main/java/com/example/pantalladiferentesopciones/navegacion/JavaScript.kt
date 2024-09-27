@@ -57,10 +57,10 @@ fun JavaScript(navController: NavController) {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Button(onClick = { navController.navigate("python") }) {
-                Text("Anterior")
+                Text("python")
             }
             Button(onClick = { navController.navigate("mysql") }) {
-                Text("Siguiente")
+                Text("mysql")
             }
         }
     }

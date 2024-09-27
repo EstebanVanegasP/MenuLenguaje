@@ -58,10 +58,10 @@ fun MySQL(navController: NavController) {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Button(onClick = { navController.navigate("javascript") }) {
-                Text("Anterior")
+                Text("javascript")
             }
             Button(onClick = { navController.navigate("pantalla_principal") }) {
-                Text("Siguiente")
+                Text("pantalla principal")
             }
         }
     }

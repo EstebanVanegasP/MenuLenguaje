@@ -52,10 +52,10 @@ fun Java(navController: NavController) {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Button(onClick = { navController.navigate("kotlin") }) {
-                Text("Anterior")
+                Text("kotlin")
             }
             Button(onClick = { navController.navigate("python") }) {
-                Text("Siguiente")
+                Text("python")
             }
         }
     }

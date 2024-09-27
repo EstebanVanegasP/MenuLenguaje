@@ -55,10 +55,10 @@ fun Kotlin(navController: NavController) {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Button(onClick = { navController.navigate("pantalla_principal") }) {
-                Text("Anterior")
+                Text("pantalla principal")
             }
             Button(onClick = { navController.navigate("java") }) {
-                Text("Siguiente")
+                Text("java")
             }
         }
     }
