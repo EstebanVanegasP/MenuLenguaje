@@ -51,7 +51,7 @@ fun PantallaPrincipal(navController: NavController) {
                         .padding(vertical = 16.dp)
                         .background(MaterialTheme.colorScheme.primaryContainer)
                         .padding(16.dp),
-                    color = Color.White // Color del texto
+                    color = Color.White
                 )
 
                 Text(
